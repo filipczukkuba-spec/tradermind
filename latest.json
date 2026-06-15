@@ -1,80 +1,118 @@
 {
-  "market_summary": "Risk appetite is firmly ON \u2014 SPY near all-time highs, VIX crushed to 16 (down 36% over 3 months), and breadth is broadening as IWM small caps (+18% 3m) join the rally. The leadership has rotated violently: semiconductors and select financials are in parabolic uptrends while mega-cap tech (MSFT, META, GOOGL) cools and precious metals correct. This is a momentum-driven, liquidity-friendly tape \u2014 not the time to fight the trend.",
-  "macro_environment": "The dollar is stable-to-firm (UUP +3.3% 6m), TLT is basing rather than collapsing (rates appear to be plateauing/easing), and credit is healthy (HYG making 52w highs, no stress signal). Gold and silver are correcting hard as real yields hold and risk assets attract flows \u2014 a classic 'risk-on, defensives out' regime. Oil rolled over (-19% 1m), removing an inflation tailwind. Net: a Goldilocks backdrop for equity momentum, particularly cyclicals and semis.",
+  "macro_regime": {
+    "classification": "late_bull",
+    "summary": "This is a healthy, broadening bull market in its later innings. The yield curve has normalized to a positive +0.85 spread, VIX sits at 16 (low fear), credit stress is normal, and crucially every credit/duration instrument (HYG, LQD, IEF) shows bullish_accelerating MACD \u2014 meaning institutional money is comfortable owning risk and duration simultaneously. The signature signal is breadth: IWM (small caps) is printing a fresh 52-week high with bullish_accelerating momentum, and cyclical sectors (Materials, Industrials, Financials) are all accelerating while the mega-cap tech leaders cool off.",
+    "key_risks": [
+      "Tech leadership is exhausting \u2014 XLK, AMD, PANW, TXN, CSCO all show bearish MACD despite huge trailing momentum, a classic late-stage cooling that could drag indices if breadth fails to hold",
+      "Valuation extension at the top (AMD trailing P/E 181, many cyclicals with BB position >1.0 sitting above their upper Bollinger Bands)"
+    ],
+    "key_tailwinds": [
+      "Positive, normalized yield curve + accelerating credit = liquidity supportive of risk assets",
+      "Broadening participation into small caps and cyclicals, the hallmark of a durable (if late) bull leg"
+    ]
+  },
+  "market_summary": "The market is in a confirmed uptrend with the S&P, Nasdaq and Russell 2000 all pressing against 52-week highs. The healthiest signal isn't the headline indices \u2014 it's that money is rotating OUT of crowded mega-cap tech and INTO financials, industrials, materials, and small caps. That rotation is what keeps bull markets alive. For a non-professional investor: stay invested, but lean toward the new leaders (banks, cyclicals, broad small caps) rather than chasing the tech names that have already tripled.",
+  "macro_environment": "10-year at 4.47%, 3-month at 3.62% \u2014 a normal upward-sloping curve, the friendliest configuration for cyclicals and banks. The dollar (UUP) is firm but not surging. Gold and oil are both in downtrends (deflationary commodity impulse), which keeps inflation fears muted and lets the Fed-sensitive parts of the market breathe. Capital is flowing toward US risk assets broadly, with credit spreads tight \u2014 a green light, not a warning.",
+  "sector_view": "Favor the accelerating cyclicals: Financials (XLF, bullish_accelerating, steep-curve beneficiary), Industrials (XLI, fresh 52w high), and Materials (XLB). These are taking the leadership baton from Technology, whose MACD has rolled to bearish across nearly every leader after a 37% three-month run. Avoid Energy (XLE bearish_accelerating, oil collapsing) and Communication Services (XLC, RSI 35, worst score). Healthcare is a reasonable defensive ballast with several bullish-MACD names.",
   "picks": [
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "asset_type": "Stock",
-      "current_price": 550.6,
-      "thesis": "AMD is the single most powerful momentum vehicle in this entire dataset: +29.8% in 1 month, +180% in 3 months, +161% in 6 months, and printing fresh 52-week highs (558 high vs 550 price). This is a stock in the second leg of an AI/data-center re-rating where it is finally taking credible share from NVIDIA in inference. The tape has confirmed the thesis \u2014 the market is voting with massive volume. When a multi-hundred-billion-dollar company moves like this, it reflects a fundamental earnings inflection, not a meme.",
-      "trader_voices": {
-        "soros": "Reflexivity in full bloom \u2014 rising price drives customer confidence, design wins, and analyst upgrades, which drive price further. The perception that AMD is a viable #2 to NVDA is becoming self-fulfilling as hyperscalers diversify supply chains.",
-        "tudor_jones": "All four momentum timeframes aligned and accelerating into new highs \u2014 textbook. I ride this but with a hard stop: if it breaks back below ~480 (the prior consolidation shelf), the trend is broken and I'm out. Asymmetric: defined risk down, open-ended up.",
-        "druckenmiller": "This is a concentration bet. When you find a leader breaking out on real earnings, you size up. This is my largest position \u2014 but I respect that a 180% 3-month move means I must trail my stop aggressively.",
-        "simons": "Momentum z-score is off the charts across every lookback. Volume confirms (31M avg). The only quant caution: extreme short-term extension raises mean-reversion risk on a 1-2 week horizon \u2014 scale in, don't chase the single day."
-      },
-      "hold_period": "3-6 months",
-      "upside_scenario": "AMD continues taking AI accelerator share, blows through 558 resistance, and runs toward 650-700 as the next earnings cycle confirms data-center revenue acceleration. A 20-30% further gain is achievable.",
-      "downside_risk": "P/E of 182 leaves zero margin for error. Any AI capex digestion scare or NVDA competitive response triggers a sharp 20-30% mean-reversion. This is the highest-volatility name in the book.",
-      "risk_level": "High",
-      "allocation_pct": 30
-    },
     {
       "symbol": "GS",
       "name": "The Goldman Sachs Group, Inc.",
       "asset_type": "Stock",
-      "current_price": 1083.12,
-      "thesis": "Goldman is the cleanest expression of the financials breakout \u2014 +14.7% 1m, +34.8% 3m, +23% 6m, sitting one tick from its 52-week high (1098). The whole XLF complex (+5.4% 1m, JPM +7.9%, BAC +13.5%) is awakening, and GS leads it. A steepening yield curve, surging capital markets activity (IPOs, M&A return), and a risk-on tape are direct earnings tailwinds. At a 19.8 P/E it is NOT expensive \u2014 momentum AND value rarely coexist this cleanly.",
+      "current_price": 1079.74,
+      "thesis": "Goldman is the cleanest expression of the macro regime: a normalized, positively-sloped yield curve plus tight credit spreads plus a risk-on tape equals booming capital markets, trading, and M&A revenue. It is breaking out within 1.2% of its 52-week high on a bullish_accelerating MACD \u2014 the single highest-conviction technical signal in the dataset \u2014 yet trades at just 16.5x forward earnings, cheap relative to its momentum. This is rotation leadership AND value, a rare combination.",
+      "signal_summary": "RSI 63.5 (strong but not overbought), MACD bullish_accelerating, momentum positive across 1m/3m/6m, price -1.2% from 52w high = breakout candidate. BB position 0.85 is slightly elevated but consistent with a confirmed breakout, not exhaustion.",
       "trader_voices": {
-        "soros": "The reflexive loop here is the reopening of capital markets \u2014 higher equity prices beget more deal flow, which begets higher Goldman earnings, which begets higher Goldman stock. A self-reinforcing cycle in the early innings.",
-        "tudor_jones": "Strong, broad, multi-timeframe uptrend into new highs with a reasonable valuation cushioning the downside. I love trends that don't require me to pay 180x earnings. Stop below 950.",
-        "druckenmiller": "Financials breaking out after a flat 6m base (XLF was -1% over 6m) is a powerful rotation signal. I want exposure to the rotation leader \u2014 GS is it. Solid second-largest position.",
-        "simons": "Positive momentum across all windows, sector correlation tailwind from XLF and the banks, and a valuation factor that's actually favorable. Clean multi-factor long."
+        "soros": "The reflexive loop is the steepening curve: as the curve normalizes, bank net-interest and capital-markets activity improve, which lifts the stock, which attracts capital flow that reinforces the move. The crowd is still anchored to 'banks are boring' \u2014 that's the mispricing.",
+        "livermore": "The tape has proven itself. GS is at a pivotal breakout point against the 52-week high with accelerating momentum. I don't anticipate the breakout \u2014 I buy the confirmation, and the confirmation is here.",
+        "tudor_jones": "Risk/reward is excellent: entry ~1080, stop ~1000 (7% risk) against a 15-20% target. That's better than 2:1 on a high-probability breakout, and momentum is on my side.",
+        "druckenmiller": "When the macro and the chart agree, you size up. Curve + credit + cheap valuation + accelerating MACD \u2014 this is my largest conviction position.",
+        "simons": "Strong signal confluence: positive multi-timeframe momentum, bullish_accelerating MACD, RSI in the ideal 45-65 trending zone, breakout proximity. No divergences. High statistical quality."
       },
+      "entry_note": "Buy into the breakout above the 1092 prior high, or on any minor pullback to the 1050-1060 area that holds. Don't chase a gap of more than 2-3% in a single session.",
       "hold_period": "4-8 months",
-      "upside_scenario": "Capital markets activity accelerates, GS breaks 1100 and re-rates toward 1250+ as the deal pipeline fills. Lower-risk, durable 15-20% upside with dividend support.",
-      "downside_risk": "A sudden risk-off shock or credit event would hit financials hard and fast. A recession scare that flattens the curve undercuts the thesis. But the valuation cushions the fall.",
+      "price_target_rationale": "A clean breakout from this base targets roughly 1250-1300 (15-20% upside), where the multiple would still only be ~19x forward \u2014 reasonable if capital-markets activity stays strong.",
+      "stop_loss_idea": "A close back below ~1000 would break the breakout structure and invalidate the thesis; the MACD flipping back to bearish would be an early warning.",
+      "upside_scenario": "M&A and IPO pipeline accelerates, trading revenue stays elevated, multiple re-rates \u2014 stock pushes toward 1300+.",
+      "downside_risk": "A risk-off shock spikes the VIX, credit spreads widen, and capital-markets revenue dries up; banks are high-beta to any macro deterioration.",
       "risk_level": "Medium",
-      "allocation_pct": 30
+      "allocation_pct": 32,
+      "conviction": "High"
     },
     {
       "symbol": "IWM",
       "name": "iShares Russell 2000 ETF",
       "asset_type": "ETF",
-      "current_price": 295.47,
-      "thesis": "Small caps are the broadening-breadth trade: IWM is +6.4% 1m, +18% 3m, +17% 6m, near 52w highs at a reasonable 19.7 P/E. When the rally widens beyond mega-cap tech (and the data shows mega-cap tech rolling over while IWM and EEM surge), small caps are historically the highest-beta beneficiaries of easing financial conditions and a stable-to-falling rate backdrop. This is a diversified momentum vehicle that reduces single-stock risk.",
+      "current_price": 295.0,
+      "thesis": "This is the purest bet on the market's most important signal \u2014 broadening. IWM is at a fresh 52-week high (0.0% from high) with bullish_accelerating MACD, the only major index ETF showing that combination. Small caps lead when the cycle re-accelerates and the curve normalizes; they are the most rate-sensitive and most under-owned cohort. Owning IWM diversifies away single-stock risk while capturing the rotation thesis broadly.",
+      "signal_summary": "RSI 54.9 (mid-range, plenty of room), MACD bullish_accelerating, +6.3% 1m / +18% 3m momentum, price at 52w high \u2014 a textbook breakout with healthy (not overbought) internals.",
       "trader_voices": {
-        "soros": "Broadening participation late in a bull run is a classic reflexive signal \u2014 cheaper, rate-sensitive small caps catch a bid as confidence spreads down the cap structure.",
-        "tudor_jones": "Momentum confirmed across all timeframes, new highs, and it's a basket \u2014 lower idiosyncratic risk than a single name. A disciplined way to express the 'rally broadens' thesis.",
-        "druckenmiller": "If rates plateau and credit stays this calm (HYG at highs), small caps have the most operating and financial leverage to the upside. A good diversifier to my concentrated single-name bets.",
-        "simons": "Strong cross-sectional momentum, healthy credit correlation, and the lowest valuation of the major index ETFs. Diversification lowers the portfolio's overall variance contribution."
+        "soros": "Small caps are where capital flees TO when the curve normalizes and recession fears fade. The consensus has been hiding in mega-cap tech; the unwind of that crowding is the flow that lifts the Russell.",
+        "livermore": "A new 52-week high on accelerating momentum is the market telling you the truth. Breakouts to new highs are bought, not feared.",
+        "tudor_jones": "A broad index breakout offers asymmetric upside with diversified, capped downside. Stop just below the breakout; the reward dwarfs the risk if breadth follows through.",
+        "druckenmiller": "Sector rotation is step two of my process \u2014 and the data screams cyclical/small-cap leadership. I want a meaningful basket position here, not a token one.",
+        "simons": "RSI in the ideal trending band, accelerating MACD, fresh high, positive cross-timeframe momentum. The breadth signal embedded in a small-cap breakout has historically high forward-return correlation."
       },
-      "hold_period": "6-12 months",
-      "upside_scenario": "Fed easing/curve steepening + risk-on broadening drives IWM through 298 toward 330+ as small-cap earnings recover. Diversified 10-15% upside.",
-      "downside_risk": "Small caps are the first to break in a credit crunch or rate spike. If the soft-landing narrative cracks, IWM falls faster than large caps. Watch HYG as the early-warning system.",
+      "entry_note": "Buy on the breakout holding above 295, or on a pullback to the 285-288 area. Confirm with the MACD staying in accelerating/bullish territory.",
+      "hold_period": "4-9 months",
+      "price_target_rationale": "A breakout from this multi-month base projects toward 330-340 (12-15%) as the rotation matures.",
+      "stop_loss_idea": "A close back below ~278 (a failed breakout) would signal the broadening move has stalled.",
+      "upside_scenario": "Rotation accelerates, rate cuts or stable rates fuel small-cap earnings recovery, IWM leads the next leg higher.",
+      "downside_risk": "A macro stumble hits small caps hardest given their leverage and rate sensitivity; a failed breakout could see a quick 8-10% give-back.",
       "risk_level": "Medium",
-      "allocation_pct": 25
+      "allocation_pct": 26,
+      "conviction": "High"
     },
     {
-      "symbol": "EEM",
-      "name": "iShares MSCI Emerging Markets ETF",
-      "asset_type": "Macro",
-      "current_price": 69.7,
-      "thesis": "EEM is quietly the best risk-adjusted macro setup: +7.1% 1m, +18.6% 3m, and a standout +30% 6m, near 52w highs at an 18.5 P/E. EM thrives precisely when the dollar stops rising aggressively and global risk appetite is strong \u2014 both true now. With gold/silver correcting and capital seeking growth, EM equities offer cheap, under-owned exposure to a weakening-USD-tilt and a global liquidity upcycle.",
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "asset_type": "Stock",
+      "current_price": 937.73,
+      "thesis": "Caterpillar is the bellwether of the industrial cyclical rotation \u2014 global infrastructure, data-center construction, and capex demand. It sits just -0.3% from its 52-week high with powerful trailing momentum (+34% 3m, +57% 6m), confirming it as a true leader of the new cycle. It adds Industrials diversification away from my financials/small-cap tilt and is a direct beneficiary of the same broadening theme.",
+      "signal_summary": "RSI 54.7 (healthy mid-range), momentum strongly positive across all timeframes, price at 52w high. The one caution: MACD reads bearish, suggesting near-term consolidation after the run \u2014 hence a patient entry is warranted.",
       "trader_voices": {
-        "soros": "My favorite kind of trade \u2014 a macro dislocation. The crowd is still underweight EM after years of underperformance, while the trend has decisively flipped. A peaking dollar is rocket fuel for EM.",
-        "tudor_jones": "The 6-month momentum here (+30%) is the strongest of any broad index in the data. The trend is unmistakable. I follow it with a stop below the recent breakout.",
-        "druckenmiller": "EM is a leveraged play on global liquidity and the dollar. If UUP rolls over from here, this is where the asymmetric upside lives. A high-conviction macro tilt.",
-        "simons": "Top-decile 6-month momentum, attractive valuation factor, and inverse-dollar correlation that's currently favorable. The numbers say overweight."
+        "soros": "Industrial demand reflexively feeds on itself in a re-accelerating cycle \u2014 capex begets earnings begets confidence begets more capex. CAT is the proxy for that loop and the deflating commodity backdrop (cheap oil/steel inputs) helps margins.",
+        "livermore": "Price is at the 52-week high \u2014 strength confirmed. But the MACD says it's catching its breath. I'd wait for the consolidation to resolve upward before committing full size.",
+        "tudor_jones": "Entry near 937 with a stop at 860 (8% risk) versus a 1050+ target keeps me above my reward/risk threshold. I'll scale, not lunge, given the bearish near-term MACD.",
+        "druckenmiller": "Industrials are step-two confirmed leadership. CAT is the highest-quality way to own that, but I size it below my pure-signal names because the momentum indicator is cooling.",
+        "simons": "Mixed signal: elite momentum and RSI in the ideal zone, but a MACD divergence. That divergence caps my conviction and argues for a staged entry rather than full deployment."
       },
-      "hold_period": "6-12 months",
-      "upside_scenario": "Dollar peaks and softens, EM earnings re-rate, and EEM runs from 70 toward 80+. A multi-quarter macro trend with substantial room.",
-      "downside_risk": "A dollar spike (the kryptonite of EM) or a China-led growth scare reverses this quickly. EM is the first to suffer in a global risk-off. The UUP chart is the trade's stop-loss trigger.",
+      "entry_note": "Wait for either a fresh push above 945 with the MACD turning back to bullish, OR a constructive pullback to the 890-910 zone that holds. Do not chase here while MACD is still bearish.",
+      "hold_period": "4-8 months",
+      "price_target_rationale": "Continuation of the cyclical uptrend targets ~1050 (12%), where the forward multiple (~31x) starts to look full.",
+      "stop_loss_idea": "A close below ~860 breaks the trend structure; failure to reclaim a bullish MACD on the next attempt is an early caution.",
+      "upside_scenario": "Global capex and data-center buildout keep order books full; CAT extends to new highs above 1000.",
+      "downside_risk": "A growth scare or China weakness hits machinery demand; the stock is extended and could mean-revert 10-15% quickly.",
       "risk_level": "Medium",
-      "allocation_pct": 15
+      "allocation_pct": 22,
+      "conviction": "Medium"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "asset_type": "Stock",
+      "current_price": 236.08,
+      "thesis": "JNJ is the portfolio ballast \u2014 a defensive, high-quality healthcare name that diversifies a book otherwise tilted toward cyclicals. It shows a bullish MACD, RSI 58, and positive momentum without being extended, sitting -4.5% from its high. If the late-cycle tech cooling spreads, this is the kind of low-beta quality that holds value while still participating in healthcare's improving relative momentum (XLV +5.3% 1m).",
+      "signal_summary": "RSI 58.7 (ideal trending zone), MACD bullish, BB position 0.74 (room to run), steady positive momentum. A clean, non-extended setup \u2014 the opposite of the overbought UNH/BAC chase names.",
+      "trader_voices": {
+        "soros": "Not a reflexivity play \u2014 this is the hedge. When crowded trades unwind, defensive quality is where conservative capital rotates, providing a floor.",
+        "livermore": "A steady, constructive uptrend with no extension. Nothing to time aggressively \u2014 accumulate and sit.",
+        "tudor_jones": "Low-beta insurance with modest but real upside. The asymmetry is in its downside protection: it cushions the book if my cyclical bets wobble.",
+        "druckenmiller": "I rarely diversify into mediocrity, but a single high-quality defensive sleeve is prudent risk management when the index leaders are rolling over. Sized small.",
+        "simons": "Clean bullish signals across RSI, MACD and momentum with no extension and no divergence. Lower expected return, but high signal quality and low volatility \u2014 a portfolio stabilizer."
+      },
+      "entry_note": "Can be bought at market given the non-extended setup; ideal adds on dips toward 228-230.",
+      "hold_period": "6-12 months",
+      "price_target_rationale": "A move back toward and through the 247 prior high targets ~260 (10%), supported by a reasonable 18.6x forward multiple.",
+      "stop_loss_idea": "A close below ~218 would break the uptrend; a MACD flip to bearish would reduce conviction.",
+      "upside_scenario": "Pipeline progress and defensive rotation lift JNJ to new highs above 250.",
+      "downside_risk": "Litigation headlines or sector-specific policy risk; limited downside given valuation and defensiveness.",
+      "risk_level": "Low",
+      "allocation_pct": 15,
+      "conviction": "Medium"
     }
   ],
-  "what_to_avoid": "Avoid precious metals (GLD -13.6% 3m, SLV -11.6% 3m) \u2014 they're in clear downtrends as risk appetite drains the safe-haven bid; don't catch this falling knife. Avoid energy (XLE -6.2% 1m, XOM -10.5%, CVX -7.8%) as oil rolls over hard (USO -19% 1m). Avoid the broken-down tech laggards (CRM -36% 6m, ADBE -42% 6m, ACN -37%, NFLX -14%) \u2014 these are value traps with falling momentum. And be cautious on cooling mega-caps (MSFT -16% 6m, META -7%, GOOGL/AMZN down 6%+ on the month) \u2014 leadership has rotated away from them for now.",
-  "closing_thoughts": "The tape is screaming risk-on with broadening breadth \u2014 ride the semis, financials, small caps, and EM that are making new highs, but trail your stops religiously because momentum this hot always mean-reverts eventually. Markets are never wrong; respect the trend until it breaks."
+  "what_to_avoid": "Avoid chasing overbought leaders: UNH (RSI 77.8) and BAC (RSI 76.3) are dangerous chases at the top of their bands. Avoid Energy entirely \u2014 XLE and XOM show bearish_accelerating MACD with oil (USO) collapsing -18.6% in a month and sitting at the bottom of its Bollinger Band. Avoid the broken-momentum tech/growth names: ADBE, CRM, NOW, PLTR, ACN all have deeply negative scores and falling prices \u2014 these are falling knives, not bargains. Be cautious with the mega-cap tech leaders (AMD, PANW, TXN, CSCO): spectacular trailing returns but bearish MACD rollovers signal the easy money has been made.",
+  "contrarian_watch": "Amazon (AMZN) \u2014 a genuine quality name now oversold (RSI 35.7, BB position 0.29, -10.4% from high) while its underlying momentum is still positive on 3m/6m. It's not a buy yet because the MACD is bearish and there's no tape reversal, but a bullish MACD cross with RSI lifting off the mid-30s would make it a compelling re-entry into a world-class franchise at a relative discount.",
+  "closing_thoughts": "The market is rewarding the rotation, not the chase \u2014 own the new leaders (banks, small caps, industrials) where momentum is accelerating, not yesterday's tech winners where it's fading. Concentrate where macro and tape agree, hedge with quality, and let the breakouts do the work: 'It was never my thinking that made the big money, it was my sitting.'"
 }
