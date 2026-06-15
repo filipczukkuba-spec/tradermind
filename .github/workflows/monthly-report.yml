@@ -1,0 +1,39 @@
+name: TraderMind Monthly Report
+
+on:
+  schedule:
+    - cron: '0 8 1 * *'  # 8am UTC on 1st of every month (9am or 10am your time)
+  workflow_dispatch:      # Also allows manual trigger from GitHub UI
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install anthropic yfinance pandas python-dotenv requests
+
+      - name: Generate report
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python main.py --ci
+
+      - name: Commit and publish
+        run: |
+          git config user.name "TraderMind Bot"
+          git config user.email "tradermind@bot.local"
+          git add index.html latest.json
+          git commit -m "TraderMind report — $(date +'%B %Y')"
+          git push
